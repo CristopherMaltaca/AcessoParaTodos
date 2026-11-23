@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acessibilidade urbana | AcessoParaTodos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/acessibilidade.js" defer></script>
+</head>
+
+<body><a class="atalho" href="#conteudo">Ir para o conteúdo principal</a>
+    <header>
+        <div class="wrap">
+            <p class="marca">AcessoParaTodos</p>
+            <p>Acessibilidade e inclusão</p>
+        </div>
+    </header>
+    <nav aria-label="Menu principal">
+        <ul class="wrap">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="digital.html">Acessibilidade digital</a></li>
+            <li><a href="urbana.html" aria-current="page">Acessibilidade urbana</a></li>
+            <li><a href="tecnologia.html">Tecnologia assistiva</a></li>
+            <li><a href="inclusao.html">Inclusão no cotidiano</a></li>
+        </ul>
+    </nav>
+    <main id="conteudo" tabindex="-1" class="wrap">
+        <div class="controles" role="group" aria-label="Controles de acessibilidade"><button id="menos"
+                aria-label="Diminuir tamanho do texto">A−</button><button id="mais"
+                aria-label="Aumentar tamanho do texto">A+</button><button id="contraste" aria-pressed="false">Alto
+                contraste</button><button id="reset">Restaurar padrão</button><span id="status" role="status"></span>
+        </div>
+        <div class="hero">
+            <h1>Cidades sem barreiras</h1>
+            <p>Ruas, edifícios e transportes devem permitir deslocamentos com segurança e autonomia.</p>
+        </div>
+        <figure class="imagem-tematica"><img src="img/urbana.jpg"
+                alt="Comparação entre uma rampa utilizada por pessoa em cadeira de rodas e um computador acessível utilizado por pessoa com leitor de tela."
+                width="650" height="450">
+            <figcaption>A remoção de barreiras é importante tanto nos espaços físicos quanto nos digitais. <span
+                    class="credito">Fonte: Enap, eMAG Conteudista, módulo 1 (2016), p. 5.</span></figcaption>
+        </figure>
+        <section>
+            <h2>Calçadas e rampas</h2>
+            <p>Calçadas livres de obstáculos e rampas adequadas facilitam a circulação de pessoas com mobilidade
+                reduzida.</p>
+        </section>
+        <section>
+            <h2>Orientação e transporte</h2>
+            <p>Pisos táteis, sinalização compreensível e veículos acessíveis ajudam diferentes pessoas a se deslocar.
+            </p>
+        </section>
+        <section>
+            <h2>Atitudes no espaço público</h2>
+            <p>Não bloqueie rampas, calçadas ou vagas reservadas. Respeite o espaço de circulação de outras pessoas.</p>
+        </section>
+        <section class="referencias">
+            <h2>Referências</h2>
+            <p>ENAP. eMAG Conteudista: Módulo 1 / Introdução (2016) e Módulo 2 / Web Acessível (2016).</p>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <p>AcessoParaTodos</p><a href="index.html">Voltar à página
+                inicial</a>
+        </div>
+    </footer>
+</body>
+
+</html>

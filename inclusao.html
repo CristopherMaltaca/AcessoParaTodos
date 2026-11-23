@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inclusão no cotidiano | AcessoParaTodos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/acessibilidade.js" defer></script>
+</head>
+
+<body><a class="atalho" href="#conteudo">Ir para o conteúdo principal</a>
+    <header>
+        <div class="wrap">
+            <p class="marca">AcessoParaTodos</p>
+            <p>Acessibilidade e inclusão</p>
+        </div>
+    </header>
+    <nav aria-label="Menu principal">
+        <ul class="wrap">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="digital.html">Acessibilidade digital</a></li>
+            <li><a href="urbana.html">Acessibilidade urbana</a></li>
+            <li><a href="tecnologia.html">Tecnologia assistiva</a></li>
+            <li><a href="inclusao.html" aria-current="page">Inclusão no cotidiano</a></li>
+        </ul>
+    </nav>
+    <main id="conteudo" tabindex="-1" class="wrap">
+        <div class="controles" role="group" aria-label="Controles de acessibilidade"><button id="menos"
+                aria-label="Diminuir tamanho do texto">A−</button><button id="mais"
+                aria-label="Aumentar tamanho do texto">A+</button><button id="contraste" aria-pressed="false">Alto
+                contraste</button><button id="reset">Restaurar padrão</button><span id="status" role="status"></span>
+        </div>
+        <div class="hero">
+            <h1>Pequenas atitudes, grandes mudanças</h1>
+            <p>A inclusão começa quando reconhecemos as necessidades de outras pessoas e removemos barreiras.</p>
+        </div>
+        <figure class="imagem-tematica"><img src="img/inclusao.jpg"
+                alt="Uma pessoa se comunica por sinais em uma videochamada e outras utilizam computadores com fones de ouvido."
+                width="714" height="309">
+            <figcaption>A comunicação e o acesso à informação podem ocorrer de diferentes maneiras. <span
+                    class="credito">Fonte: Enap, eMAG Conteudista, módulo 1 (2016), p. 7.</span></figcaption>
+        </figure>
+        <section>
+            <h2>Respeite a autonomia</h2>
+            <p>Pergunte antes de oferecer ajuda e respeite a resposta. Converse diretamente com a pessoa.</p>
+        </section>
+        <section>
+            <h2>Comunicação clara</h2>
+            <p>Use linguagem simples, ofereça informações em formatos diferentes e respeite o tempo de cada pessoa.</p>
+        </section>
+        <section>
+            <h2>Na escola e no trabalho</h2>
+            <p>Compartilhe materiais acessíveis, mantenha espaços de circulação livres e incentive a participação de
+                todos.</p>
+        </section>
+        <section class="referencias">
+            <h2>Referências</h2>
+            <p>ENAP. eMAG Conteudista: Módulo 1 / Introdução (2016) e Módulo 2 / Web Acessível (2016).</p>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <p>AcessoParaTodos</p><a href="index.html">Voltar à página
+                inicial</a>
+        </div>
+    </footer>
+</body>
+
+</html>

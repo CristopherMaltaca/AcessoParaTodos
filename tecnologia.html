@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tecnologia assistiva | AcessoParaTodos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/acessibilidade.js" defer></script>
+</head>
+
+<body><a class="atalho" href="#conteudo">Ir para o conteúdo principal</a>
+    <header>
+        <div class="wrap">
+            <p class="marca">AcessoParaTodos</p>
+            <p>Acessibilidade e inclusão</p>
+        </div>
+    </header>
+    <nav aria-label="Menu principal">
+        <ul class="wrap">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="digital.html">Acessibilidade digital</a></li>
+            <li><a href="urbana.html">Acessibilidade urbana</a></li>
+            <li><a href="tecnologia.html" aria-current="page">Tecnologia assistiva</a></li>
+            <li><a href="inclusao.html">Inclusão no cotidiano</a></li>
+        </ul>
+    </nav>
+    <main id="conteudo" tabindex="-1" class="wrap">
+        <div class="controles" role="group" aria-label="Controles de acessibilidade"><button id="menos"
+                aria-label="Diminuir tamanho do texto">A−</button><button id="mais"
+                aria-label="Aumentar tamanho do texto">A+</button><button id="contraste" aria-pressed="false">Alto
+                contraste</button><button id="reset">Restaurar padrão</button><span id="status" role="status"></span>
+        </div>
+        <div class="hero">
+            <h1>Tecnologia que promove autonomia</h1>
+            <p>Tecnologia assistiva reúne recursos que ajudam pessoas com deficiência a realizar atividades com maior
+                independência.</p>
+        </div>
+        <figure class="imagem-tematica"><img src="img/tecnologia.jpg"
+                alt="Pessoa usando bengala para se orientar e outra utilizando um ampliador eletrônico para leitura."
+                width="859" height="422">
+            <figcaption>Exemplos de tecnologias assistivas que favorecem a autonomia. <span class="credito">Fonte: Enap,
+                    eMAG Conteudista, módulo 1 (2016), p. 15.</span></figcaption>
+        </figure>
+        <section>
+            <h2>Leitores de tela</h2>
+            <p>Transformam informações textuais e elementos da interface em fala ou saída Braille.</p>
+        </section>
+        <section>
+            <h2>Ampliadores de tela</h2>
+            <p>Aumentam o conteúdo exibido e podem facilitar a leitura por pessoas com baixa visão.</p>
+        </section>
+        <section>
+            <h2>Teclados e mouses adaptados</h2>
+            <p>Oferecem alternativas de interação para pessoas com diferentes necessidades motoras.</p>
+        </section>
+        <section class="referencias">
+            <h2>Referências</h2>
+            <p>ENAP. eMAG Conteudista: Módulo 1 / Introdução (2016) e Módulo 2 / Web Acessível (2016).</p>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <p>AcessoParaTodos</p><a href="index.html">Voltar à página
+                inicial</a>
+        </div>
+    </footer>
+</body>
+
+</html>
